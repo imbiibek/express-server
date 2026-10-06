@@ -22,9 +22,6 @@ app.get("/about", (req, res) => {
     res.send("About")
 })
 
-app.post("/register", (req, res) => {
-    res.sendStatus(201);
-})
 
 app.put("/user/bibek", (req, res) => {
     res.sendStatus(200);
