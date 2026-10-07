@@ -8,7 +8,7 @@ const port = 3000;
 app.use(express.json());
 connectDb()
 app.get("/", (req, res) => {
-    res.send("<h1>Hello</h1>")
+    res.send("<h1>Hello World</h1>")
 })
 
 
